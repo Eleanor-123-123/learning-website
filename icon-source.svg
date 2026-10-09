@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title">
+  <title id="title">Film Review play button icon</title>
+  <rect width="512" height="512" rx="112" fill="#a63224"/>
+  <circle cx="256" cy="256" r="160" fill="#171b24"/>
+  <path d="M218 166L368 256L218 346Z" fill="#f7f2ea"/>
+  <circle cx="150" cy="150" r="22" fill="#e6ad4f"/>
+</svg>

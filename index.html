@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A learning website about memorable film quotations, project ideas and a small interactive machine.">
+    <title>Home · Film Review Website</title>
+    <link rel="icon" href="favicon-32.png" sizes="32x32">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="site-header"></header>
+    <main class="page-shell">
+        <section class="hero home-hero" aria-labelledby="site-title">
+            <img class="hero-background" src="images/cinema-viewer.png" alt="A person sitting alone in a cinema and watching a glowing movie screen" width="1672" height="941">
+            <div class="hero-content">
+                <p class="eyebrow">A Web Technologies learning project</p>
+                <h1 id="site-title">Film Review Website</h1>
+                <p class="hero-introduction">Explore memorable movie lines, compare possible website ideas, and meet a machine that can never keep its own opinion.</p>
+                <a class="button" href="quotes.html">Explore the quotes</a>
+            </div>
+        </section>
+        <section class="site-overview" aria-labelledby="site-overview-title">
+            <div class="section-heading"><p class="eyebrow">Four pages, one shared structure</p><h2 id="site-overview-title">On this site</h2></div>
+            <div class="overview-grid">
+                <article class="overview-card"><p class="card-number" aria-hidden="true">01</p><h3>Movie Quotes</h3><p>Fifteen short film quotations, each with a speaker and source.</p><a href="quotes.html">Read the collection <span aria-hidden="true">→</span></a></article>
+                <article class="overview-card"><p class="card-number" aria-hidden="true">02</p><h3>Project Ideas</h3><p>Five possible film-related websites, their audiences and a build plan.</p><a href="project.html">Compare the ideas <span aria-hidden="true">→</span></a></article>
+                <article class="overview-card"><p class="card-number" aria-hidden="true">03</p><h3>Useless Machine</h3><p>A tiny interactive toy that gives a film five stars, then changes its mind.</p><a href="machine.html">Try the machine <span aria-hidden="true">→</span></a></article>
+            </div>
+        </section>
+        <section class="learning-note" aria-labelledby="learning-title">
+            <div><p class="eyebrow">Built one layer at a time</p><h2 id="learning-title">What this site demonstrates</h2></div>
+            <p>Semantic HTML describes the content, one shared CSS file controls the visual system, and plain JavaScript adds navigation and behaviour.</p>
+        </section>
+    </main>
+    <footer id="site-footer"></footer>
+    <script src="nav.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A useless film review machine that gives five stars and immediately takes them back.">
+    <title>Useless Machine · Film Review Website</title>
+    <link rel="icon" href="favicon-32.png" sizes="32x32">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="machine.css">
+</head>
+<body>
+    <header id="site-header"></header>
+    <main class="page-shell machine-page">
+        <header class="page-introduction"><p class="eyebrow">One control, one surprise, back to the start</p><h1>The Indecisive Critic</h1><p>It gives every film five stars, changes its mind, and forgets the whole review. Certainty disappears as soon as you ask for it.</p></header>
+        <section id="review-machine" class="review-machine" aria-labelledby="machine-title">
+            <div class="machine-screen" aria-live="polite">
+                <p class="screen-label" id="machine-title">Current review</p>
+                <div id="star-rating" class="star-rating" aria-label="No rating yet">☆☆☆☆☆</div>
+                <p id="machine-status" class="machine-status">The critic is waiting.</p>
+                <div class="progress-track" aria-hidden="true"><span id="progress-bar" class="progress-bar"></span></div>
+            </div>
+            <button id="review-button" class="machine-button" type="button">Write a five-star review</button>
+        </section>
+        <aside class="machine-note" aria-labelledby="how-title"><h2 id="how-title">How to use it</h2><p>Press the button with a mouse, a finger, or the keyboard. The machine always returns to its starting state.</p></aside>
+    </main>
+    <footer id="site-footer"></footer>
+    <script src="nav.js"></script>
+    <script src="machine.js"></script>
+</body>
+</html>
